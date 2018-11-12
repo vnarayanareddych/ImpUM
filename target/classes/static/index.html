@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>PAAS Web Services</title>
+<style>
+.paas {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 200Px;
+}
+</style>
+</head>
+<body>
+<center><h1 style="font-family:verdana;">PAAS Web Services</h1></center>
+	<center><h3>Welcome to the PAAS Web Services</h3></center>
+	<center><h3>Services Available</h3></center>
+	<center><div class="dropdown" style="float:center;">
+  		<button class="paas">PAAS API</button>
+  		<div class="dropdown-content">
+    		<a href="#" onclick="bankSearch()">Bank Search</a></br>
+    		<a href="#" onclick="bankBranchSearch()">Bank Branch Search</a></br>
+    		<a href="#" onclick="paymentCalculator()">Payment Calcualtor</a></br>
+    		<a href="#" onclick="createTransaction()">Create Transaction</a></br>
+    		<a href="#" onclick="transactionEnquiry()">Transaction Enquiry</a></br>
+    		<a href="#" onclick="cancelTransaction()">Cancel Transaction</a></br>
+    		<a href="#" onclick="releaseTransaction()">Release Transaction</a></br>
+    	</div>
+	</div></center>
+		
+<script>
+
+function bankSearch() {
+    alert("https://10.25.192.57:8080/PAASAPI/bankSearch");
+}
+function bankBranchSearch() {
+    alert("https://10.25.192.57:8080/PAASAPI/bankBranchSearch");
+}
+function paymentCalculator() {
+    alert("https://10.25.192.57:8080/PAASAPI/paymentCalculator");
+}
+function createTransaction() {
+    alert("https://10.25.192.57:8080/PAASAPI/createTransaction");
+}
+function transactionEnquiry() {
+    alert("https://10.25.192.57:8080/PAASAPI/txnEnquiry");
+}
+function cancelTransaction() {
+    alert("https://10.25.192.57:8080/PAASAPI/Cancel");
+}
+function releaseTransaction() {
+    alert("https://10.25.192.57:8080/PAASAPI/releaseTransaction");
+}
+
+</script>
+</body>
+</html>

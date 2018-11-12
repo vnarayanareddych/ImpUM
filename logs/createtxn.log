@@ -1,0 +1,355 @@
+2018-10-30 12:46:44,669 INFO [com.paas.controller.CreateTransactionApiController] - <Entering CreateTxnService>
+2018-10-30 12:46:44,747 INFO [com.paas.service.impl.CreateTxnServiceImpl] - < Request Sending to API to CreateTransactionEx for PartnerTxnRefNo : 6788694554431
+
+{
+  "validateOnlyFlag" : 2,
+  "overrideRateFlag" : 2,
+  "partnerTxnRefNo" : "6788694554431",
+  "requiresAuthorization" : 0,
+  "crmRefNumber" : "",
+  "crmLeadRefNumber" : "7698789",
+  "specialDealRefNumber" : "",
+  "sendingAgentCode" : "MDARTUSRX001",
+  "serviceProviderCode" : "",
+  "senderProfile" : 2,
+  "receiverProfile" : 2,
+  "senderType" : 1,
+  "receiverType" : 1,
+  "senderRefNumber" : "00000007",
+  "senderFirstName" : "Anila",
+  "senderMiddleName" : "szdfsdf",
+  "senderLastName" : "asdd",
+  "senderPOBox" : "45454545",
+  "senderAddress1" : "dhandeeswaram",
+  "senderAddress2" : "ashok nagar",
+  "senderCity" : "Dubai",
+  "senderDistrict" : "Dubai",
+  "senderState" : "Dubai",
+  "senderCountryCode" : "IN",
+  "senderZipCode" : "34234",
+  "senderMobile" : "5022222222",
+  "senderPhone" : "+971-111111",
+  "senderFax" : "971-454554545",
+  "senderEmail" : "nihitha@gmail.com",
+  "senderOtherInfo" : "",
+  "senderMessageToBeneficiary" : "Hello",
+  "senderSelfDeclaration" : 1,
+  "senderGender" : "M",
+  "senderDateOfBirth" : "Nov  5 1982  6:03:23:440PM",
+  "senderNationalityCode" : "AE",
+  "senderOccupation" : "",
+  "senderPlaceOfBirth" : "Dindigul",
+  "senderEmployerName" : "dfgdfg",
+  "senderEmployerPhone" : "543214",
+  "senderID" : "15632",
+  "senderIDType" : "1",
+  "senderIDOtherType" : "Nov  5 1982  6:03:23:440PM",
+  "senderIDIssuedBy" : "RTO",
+  "senderIDIssuedAt" : "Chennai",
+  "senderIDIssueDate" : "Nov 04 1985 11:33:05:206PM",
+  "senderIDValidThru" : "Nov 08 2020 11:33:05:206PM",
+  "senderIDIssuanceCountry" : "IN",
+  "senderIDOtherInfo" : "Sender Id Other info 2",
+  "senderIDRemarks" : "ID Remarks",
+  "senderproofOfAddress" : "AADHAR CARD",
+  "senderID2" : "345",
+  "senderID2Type" : "1",
+  "senderID2IssuedBy" : "",
+  "senderID2IssuedAt" : "",
+  "senderID2IssueDate" : "Jan  5 2018  6:03:23:440PM",
+  "senderID2ValidThru" : "Nov 04 2020 11:33:05:206PM",
+  "senderID2IssuanceCountry" : "AE",
+  "senderID2OtherInfo" : "Sender Id Other info 2",
+  "senderID2Remarks" : "Remarks 2",
+  "taxRegNo" : "",
+  "taxRegNoIssuedCountry" : "",
+  "ekycVerifiedSource" : "",
+  "ekycValidatedSource" : "",
+  "ekycValidatedOn" : "",
+  "senderOtherInfo1" : "",
+  "senderOtherInfo2" : "",
+  "senderOtherInfo3" : "",
+  "senderOtherInfo4" : "",
+  "senderOtherInfo5" : "",
+  "receiverRefNumber" : "1231",
+  "receiverFirstName" : "nihitha456",
+  "receiverMiddleName" : "xfs",
+  "receiverLastName" : "af",
+  "deliveryOption" : 0,
+  "receiverAddress1" : "dindigul",
+  "receiverAddress2" : "chennai",
+  "receiverCity" : "sdfg",
+  "receiverCountryCode" : "IN",
+  "receiverDistrict" : "Madurai",
+  "receiverState" : "tamilnadu",
+  "receiverPOBox" : "12345",
+  "receiverZipCode" : "600016",
+  "receiverPhone" : "+91-5656565656",
+  "receiverMobile" : "+91-5656565656",
+  "receiverFax" : "",
+  "receiverEmail" : "ramya@gmail.com",
+  "receiverNationalityCode" : "IN",
+  "receiverGender" : "M",
+  "receiverDateOfBirth" : "Jan  5 1992  6:03:23:440PM",
+  "receiverOccupation" : "Developer",
+  "receiverSenderRelationship" : "",
+  "receiverSmsNotify" : 0,
+  "receiverID" : "12121212",
+  "receiverIDType" : "5",
+  "receiverIDOtherType" : "",
+  "receiverIDIssuedBy" : "RTO office",
+  "receiverIDIssuedAt" : "madurai",
+  "receiverIDIssueDate" : "Nov 8 2016",
+  "receiverIDValidThru" : "Nov 8 2020",
+  "receiverIDIssuanceCountry" : "IN",
+  "receiverOtherInfo1" : "",
+  "receiverOtherInfo2" : "",
+  "receiverOtherInfo3" : "",
+  "receiverOtherInfo4" : "",
+  "receiverOtherInfo5" : "",
+  "receiverBankAccountNo" : "1234567890123456",
+  "receiverBankIBANNo" : "",
+  "receiverCardNo" : "",
+  "receiverCardType" : 0,
+  "receiverWalletPatrnerCode" : "",
+  "receiverWalletNumber" : "",
+  "receiverEnglishName" : "",
+  "receiverChineseNameInEnglish" : "",
+  "receiverBankAccountName" : "ramyaramesh",
+  "receiverBankCode" : "PUNBIN######",
+  "receiverBankBranchCode" : "PUNTINTT",
+  "receiverBranchIdentifier" : "",
+  "receiverBankBranchName" : "sfzxdf",
+  "receivingAgentCode" : "XXXXXXXXXXXX",
+  "serviceType" : "C2BK",
+  "productType" : "XRTT",
+  "sourceOfIncome" : "S02",
+  "purposeOfTxn" : "P09",
+  "purposeOfTxnDetails" : "Purpose",
+  "calculationModel" : 0,
+  "transactionMode" : 0,
+  "txnOtherInfo1" : "",
+  "txnOtherInfo2" : "",
+  "txnOtherInfo3" : "",
+  "txnOtherInfo4" : "",
+  "txnOtherInfo5" : "",
+  "paymentMode" : "CQ",
+  "xchgRatePayin2Payout" : 17.80817889,
+  "payinCcyCode" : "USD",
+  "payinAmount" : 100.0,
+  "payoutCcyCode" : "INR",
+  "payoutAmount" : 500.0,
+  "tax" : 11.0,
+  "cardCharges" : 0.0,
+  "otherCharges" : 0.0,
+  "additionalCharges" : 0.0,
+  "commission" : 0.0,
+  "partnerCommission" : 0.0,
+  "totalPayinAmount" : 10.0,
+  "rateOtherInfo1" : "",
+  "rateOtherInfo2" : "",
+  "rateOtherInfo3" : "",
+  "rateOtherInfo4" : "",
+  "rateOtherInfo5" : "",
+  "paymentOtherInfo1" : "",
+  "paymentOtherInfo2" : "",
+  "paymentOtherInfo3" : "",
+  "paymentOtherInfo4" : "",
+  "paymentOtherInfo5" : "",
+  "promotionRefNumber" : "1212",
+  "promotionMessageDescription" : "MSG",
+  "promotionalData1" : "",
+  "promotionalData2" : "",
+  "promotionalData3" : "",
+  "promotionalData4" : "",
+  "promotionCcyCode" : "USD",
+  "discountField" : "",
+  "ruleFlag" : 0,
+  "controlFlag" : 0,
+  "externalFlag" : 0,
+  "reservedParam1" : "",
+  "reservedParam2" : "",
+  "reservedParam3" : "",
+  "reservedParam4" : "",
+  "reservedParam5" : "",
+  "reservedParam6" : "",
+  "reservedParam7" : "",
+  "reservedParam8" : "",
+  "reservedParam9" : "",
+  "reservedParam10" : ""
+}
+
+Request Completed to CreateTransactionEx>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <TxnRefNo---->8405751830318186>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <instrumentType---->XR>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <AgentStatus---->1937>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <RequiresAuthorization---->0>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <serviceType---->0>
+2018-10-30 12:46:47,635 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <UserID---->SRIKANTH        >
+2018-10-30 12:46:47,873 INFO [com.paas.dao.impl.CreateTxnDAOImpl] - <Response--->class CreateTransactionResponse {
+    serverResponse: null
+    txnRefNo: 8405751830318186
+    partnerTxnRefNo: 6788694554431
+    taxInvoiceNumber:  
+    xchgRatePayin2Payout: 17.80817889
+    payinCcyCode: USD
+    payinAmount: 100.0
+    payoutCcyCode: INR
+    payoutAmount: 500.0
+    paymentMode: CQ
+    partnerCommission: 0.0
+    commission: 0.0
+    tax: 11.0
+    cardCharges: 0.0
+    additionalCharges: 0.0
+    otherCharges: 0.0
+    totalPayinAmount: 10.0
+    sendingAgentCode: MDARTUSRX001
+    serviceProviderCode: UAEEXAE#####
+    receivingAgentCode:  
+    sourceOfIncome: S02
+    purposeOfTxn: P09
+    transactionGMTDateTime: Oct 30 2018  8:46:16:726AM
+    settlementCcyCode: USD
+    xchgRateUSDToPayin: 1.0
+    xchgRateUSDToPayout: 63.95
+    xchgRateUSDToSettlement: 1.00000000
+    xchgRateSettlementToPayin: 1.0
+    xchgRateSettlementToPayout: 63.95
+    commissionInSCcy: 0.0
+    taxInSCcy: 0.0
+    cardChargesInSCcy: 0.0
+    additionalChargesInSCcy: 0.0
+    otherChargesInSCcy: 0.0
+    payinAmountInSCcy: 0.0
+    totalPayinAmountInSCcy: 0.0
+    payoutAmountInSCcy: 7.82
+    reservedParam1:  
+    reservedParam2:  
+    reservedParam3:  
+    reservedParam4:  
+    reservedParam5:  
+    reservedParam6:  
+    reservedParam7:  
+    reservedParam8:  
+    reservedParam9:  
+    reservedParam10:  
+}>
+2018-10-30 12:46:47,873 INFO [com.paas.service.impl.CreateTxnServiceImpl] - < Response Received from API to CreateTransactionEx for PartnerTxnRefNo : 6788694554431
+
+{
+  "serverResponse" : {
+    "responseCode" : "S0000",
+    "responseReason" : "Success",
+    "subStatusCode" : "S7004",
+    "subStatusDescription" : "Request has been successfully processed"
+  },
+  "txnRefNo" : "8405751830318186",
+  "partnerTxnRefNo" : "6788694554431",
+  "taxInvoiceNumber" : " ",
+  "xchgRatePayin2Payout" : 17.80817889,
+  "payinCcyCode" : "USD",
+  "payinAmount" : 100.0,
+  "payoutCcyCode" : "INR",
+  "payoutAmount" : 500.0,
+  "paymentMode" : "CQ",
+  "partnerCommission" : 0.0,
+  "commission" : 0.0,
+  "tax" : 11.0,
+  "cardCharges" : 0.0,
+  "additionalCharges" : 0.0,
+  "otherCharges" : 0.0,
+  "totalPayinAmount" : 10.0,
+  "sendingAgentCode" : "MDARTUSRX001",
+  "serviceProviderCode" : "UAEEXAE#####",
+  "receivingAgentCode" : " ",
+  "sourceOfIncome" : "S02",
+  "purposeOfTxn" : "P09",
+  "transactionGMTDateTime" : "Oct 30 2018  8:46:16:726AM",
+  "settlementCcyCode" : "USD",
+  "xchgRateUSDToPayin" : 1.0,
+  "xchgRateUSDToPayout" : 63.95,
+  "xchgRateUSDToSettlement" : "1.00000000",
+  "xchgRateSettlementToPayin" : 1.0,
+  "xchgRateSettlementToPayout" : 63.95,
+  "commissionInSCcy" : 0.0,
+  "taxInSCcy" : 0.0,
+  "cardChargesInSCcy" : 0.0,
+  "additionalChargesInSCcy" : 0.0,
+  "otherChargesInSCcy" : 0.0,
+  "payinAmountInSCcy" : 0.0,
+  "totalPayinAmountInSCcy" : 0.0,
+  "payoutAmountInSCcy" : 7.82,
+  "reservedParam1" : " ",
+  "reservedParam2" : " ",
+  "reservedParam3" : " ",
+  "reservedParam4" : " ",
+  "reservedParam5" : " ",
+  "reservedParam6" : " ",
+  "reservedParam7" : " ",
+  "reservedParam8" : " ",
+  "reservedParam9" : " ",
+  "reservedParam10" : " "
+}
+
+Response Completed to CreateTransactionEx>
+2018-10-30 12:46:47,873 INFO [com.paas.service.impl.CreateTxnServiceImpl] - <=======:: Before data push to queue in CreateTxn !>
+2018-10-30 12:46:49,047 INFO [com.paas.service.impl.CreateTxnServiceImpl] - <exception--->Uncategorized exception occurred during JMS processing; nested exception is javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connectjavax.jms.JMSException: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused: connect>
+2018-10-30 12:46:49,047 INFO [com.paas.service.impl.CreateTxnServiceImpl] - < Response Received from API to CreateTransactionEx for PartnerTxnRefNo : 6788694554431
+
+{
+  "serverResponse" : {
+    "responseCode" : "S0000",
+    "responseReason" : "Success",
+    "subStatusCode" : "S7004",
+    "subStatusDescription" : "Request has been successfully processed"
+  },
+  "txnRefNo" : "8405751830318186",
+  "partnerTxnRefNo" : "6788694554431",
+  "taxInvoiceNumber" : " ",
+  "xchgRatePayin2Payout" : 17.80817889,
+  "payinCcyCode" : "USD",
+  "payinAmount" : 100.0,
+  "payoutCcyCode" : "INR",
+  "payoutAmount" : 500.0,
+  "paymentMode" : "CQ",
+  "partnerCommission" : 0.0,
+  "commission" : 0.0,
+  "tax" : 11.0,
+  "cardCharges" : 0.0,
+  "additionalCharges" : 0.0,
+  "otherCharges" : 0.0,
+  "totalPayinAmount" : 10.0,
+  "sendingAgentCode" : "MDARTUSRX001",
+  "serviceProviderCode" : "UAEEXAE#####",
+  "receivingAgentCode" : " ",
+  "sourceOfIncome" : "S02",
+  "purposeOfTxn" : "P09",
+  "transactionGMTDateTime" : "Oct 30 2018  8:46:16:726AM",
+  "settlementCcyCode" : "USD",
+  "xchgRateUSDToPayin" : 1.0,
+  "xchgRateUSDToPayout" : 63.95,
+  "xchgRateUSDToSettlement" : "1.00000000",
+  "xchgRateSettlementToPayin" : 1.0,
+  "xchgRateSettlementToPayout" : 63.95,
+  "commissionInSCcy" : 0.0,
+  "taxInSCcy" : 0.0,
+  "cardChargesInSCcy" : 0.0,
+  "additionalChargesInSCcy" : 0.0,
+  "otherChargesInSCcy" : 0.0,
+  "payinAmountInSCcy" : 0.0,
+  "totalPayinAmountInSCcy" : 0.0,
+  "payoutAmountInSCcy" : 7.82,
+  "reservedParam1" : " ",
+  "reservedParam2" : " ",
+  "reservedParam3" : " ",
+  "reservedParam4" : " ",
+  "reservedParam5" : " ",
+  "reservedParam6" : " ",
+  "reservedParam7" : " ",
+  "reservedParam8" : " ",
+  "reservedParam9" : " ",
+  "reservedParam10" : " "
+}
+
+Response Completed to CreateTransactionEx>

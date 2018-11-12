@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.paas.config.PaasDBConfiguration",
+      "name": "spring.sybase-pr",
+      "sourceMethod": "public javax.sql.DataSource sybasePRDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.paas.config.PaasDBConfiguration",
+      "name": "spring.sybase-tr",
+      "sourceMethod": "public javax.sql.DataSource sybaseTRDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}

@@ -1,0 +1,77 @@
+2018-10-30 12:46:30,447 INFO [com.paas.controller.BankSearchApiController] - <Entering BankService>
+2018-10-30 12:46:30,449 INFO [com.paas.service.impl.BankSearchServiceImpl] - <class BankSearchRequest {
+    country: IN
+    bankName: AXIS
+    noOfResults: 100
+    paginationNumber: 1
+    controlFlag: 1
+    reservedParam1: 
+    reservedParam2: 
+    reservedParam3: 
+    reservedParam4: 
+    reservedParam5: 
+    reservedParam6: 
+    reservedParam7: 
+    reservedParam8: 
+    reservedParam9: 
+    reservedParam10: 
+}
+URL:	http://10.25.195.56:8080/solr/benebanksearch/select?q=bankName:*AXIS*+bankCountryCode:IN&start=0&wt=json&rows=100>
+2018-10-30 12:46:30,538 INFO [com.paas.service.impl.BankSearchServiceImpl] - <Existing BankServiceMethod>
+2018-10-30 15:51:04,741 INFO [com.paas.controller.BankSearchApiController] - <Entering BankService>
+2018-10-30 15:51:04,767 INFO [com.paas.service.impl.BankSearchServiceImpl] - <class BankSearchRequest {
+    country: IN
+    bankName: AXIS
+    noOfResults: 100
+    paginationNumber: 1
+    controlFlag: 1
+    reservedParam1: 
+    reservedParam2: 
+    reservedParam3: 
+    reservedParam4: 
+    reservedParam5: 
+    reservedParam6: 
+    reservedParam7: 
+    reservedParam8: 
+    reservedParam9: 
+    reservedParam10: 
+}
+URL:	http://10.25.195.56:8080/solr/benebanksearch/select?q=bankName:*AXIS*+bankCountryCode:IN&start=0&wt=json&rows=100>
+2018-10-30 15:51:56,548 INFO [com.paas.controller.BankSearchApiController] - <Entering BankService>
+2018-10-30 15:51:56,548 INFO [com.paas.service.impl.BankSearchServiceImpl] - <class BankSearchRequest {
+    country: IN
+    bankName: AXIS
+    noOfResults: 100
+    paginationNumber: 1
+    controlFlag: 1
+    reservedParam1: 
+    reservedParam2: 
+    reservedParam3: 
+    reservedParam4: 
+    reservedParam5: 
+    reservedParam6: 
+    reservedParam7: 
+    reservedParam8: 
+    reservedParam9: 
+    reservedParam10: 
+}
+URL:	http://10.25.195.56:8080/solr/benebanksearch/select?q=bankName:*AXIS*+bankCountryCode:IN&start=0&wt=json&rows=100>
+2018-10-30 15:51:56,691 INFO [com.paas.controller.BankSearchApiController] - <Entering BankService>
+2018-10-30 15:51:56,692 INFO [com.paas.service.impl.BankSearchServiceImpl] - <class BankSearchRequest {
+    country: IN
+    bankName: AXIS
+    noOfResults: 100
+    paginationNumber: 1
+    controlFlag: 1
+    reservedParam1: 
+    reservedParam2: 
+    reservedParam3: 
+    reservedParam4: 
+    reservedParam5: 
+    reservedParam6: 
+    reservedParam7: 
+    reservedParam8: 
+    reservedParam9: 
+    reservedParam10: 
+}
+URL:	http://10.25.195.56:8080/solr/benebanksearch/select?q=bankName:*AXIS*+bankCountryCode:IN&start=0&wt=json&rows=100>

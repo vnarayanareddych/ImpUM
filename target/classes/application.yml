@@ -1,0 +1,26 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /PAASAPI
+---
+spring:
+  sybase-tr:
+    driver-class-name: com.sybase.jdbc4.jdbc.SybDataSource
+    jdbc-url: jdbc:sybase:Tds:10.25.193.57:5000/xinterim
+    username: developers
+    password: developers@123 
+---      
+spring:
+  sybase-pr:
+    driver-class-name: com.sybase.jdbc4.jdbc.SybDataSource
+    jdbc-url: jdbc:sybase:Tds:10.25.193.56:5000/xinterim
+    username: developers
+    password: developers@123    
+    
+---    
+spring: 
+  activemq:
+    broker:
+      url: tcp://localhost:61616
+      username: admin
+      password: admin   
